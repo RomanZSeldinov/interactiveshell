@@ -2,8 +2,6 @@ import ishtools
 import os
 import sys
 import time
-import fmtest
-import powerman
 
 working_directory = os.getcwd()
 def ls():
