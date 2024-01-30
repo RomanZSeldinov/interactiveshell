@@ -16,7 +16,11 @@ def loadmod():
     except IOError:
         print("Error while reading file.")
 
-
+def mkdir():
+    path = input("Path: ")
+    if not os.path.exists(path):
+        os.mkdir(path)
+        
 def help():
     print("ls - Show directory entries")
     print("cd - Open Directory")
