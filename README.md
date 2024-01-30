@@ -1,0 +1,2 @@
+# interactiveshell
+ish for pyos
